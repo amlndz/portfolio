@@ -5,9 +5,9 @@ html{
 }
 
 main{
-    margin-top: 100px;
+    margin-top: 80px;
 }
-
+/* 
 header{
     position: fixed;
     top: 0;
@@ -25,9 +25,9 @@ header a{
 
 header a:target{
     color: #B6A395;
-}
+} */
 
-strong{
+.hero strong{
     color: #B6A395;
 }
 
@@ -44,6 +44,8 @@ nav a{
     margin: 0 auto;
     text-align: center;
     position: relative;
+    margin-bottom: 130px; /* Agregar margen inferior */
+
 }
 
 .logo {
@@ -51,7 +53,7 @@ nav a{
     height: auto;
 }
 
-.hero h1 {
+h1 {
     color: #34525D;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     font-size: 1.875rem;
@@ -76,4 +78,52 @@ nav a{
 
 .menu img.lv {
     margin: 0px 15px; 
+}
+
+.about-me strong{
+    color: #D9AA8F;
+}
+
+.about-me {
+    margin: 220px auto 300px; 
+    width: 890px;
+    position: relative;
+}
+
+.about-me h1{
+    text-align: center;
+
+}
+
+.about-me-content{
+    display: grid;
+    grid-template-columns: 25% 5% 70%;
+    gap: 20px;
+}
+
+.about-me-content h2{
+    color: #D9AA8F;
+}
+
+.fotoPerfil{
+    width: 220px;
+    height: 220px;
+    margin-top: 60px;
+}
+
+.lv2{
+    margin: 40px 20px;
+
+
+}
+.about-text p{
+    font-size: 0.875rem;
+}
+
+.lenguages h2{
+    color: #34525D;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    font-size: 1.875rem;
+    line-height: 1.2;
+    margin: 40px 0px;
 }
