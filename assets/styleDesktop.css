@@ -4,9 +4,8 @@ html{
     font-size: 16px;
 }
 
-main{
-    margin-top: 80px;
-}
+
+
 /* 
 header{
     position: fixed;
@@ -44,7 +43,7 @@ nav a{
     margin: 0 auto;
     text-align: center;
     position: relative;
-    margin-bottom: 130px; /* Agregar margen inferior */
+    margin-bottom: 200px; /* Agregar margen inferior */
 
 }
 
@@ -85,13 +84,14 @@ h1 {
 }
 
 .about-me {
-    margin: 220px auto 220px; 
+    margin: 21rem auto 12rem; 
     width: 890px;
     position: relative;
 }
 
 .about-me h1{
     text-align: center;
+    padding-top: 1rem;
 
 }
 
