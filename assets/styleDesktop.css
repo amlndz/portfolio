@@ -1,0 +1,79 @@
+html{
+    background-color: #F2EFE9;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+main{
+    margin-top: 100px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 0.625rem 1.25rem;
+    z-index: 999;
+}
+
+header a{
+    color: #34525D;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.875rem;
+}
+
+header a:target{
+    color: #B6A395;
+}
+
+strong{
+    color: #B6A395;
+}
+
+nav a{
+    color: #34525D;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.875rem;
+}
+
+
+.hero {
+    width: 890px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    color: #34525D;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    font-size: 1.875rem;
+    line-height: 1.2;
+    margin: 40px 0px;
+}
+
+.menu {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.menu a {
+    margin-top: 30px; 
+    color: #34525D;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5625rem;
+    margin: 0px 70px;
+}
+
+.menu img.lv {
+    margin: 0px 15px; 
+}
