@@ -191,7 +191,7 @@ h1 {
 .messi img{
     padding: 10px;
 }
-.project a {
+.project .github {
     position: absolute;
     bottom: 0;
     right: 0; 
